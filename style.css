@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.h{
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient(blueviolet,greenyellow);
+    padding: 20px;
+    color: white;
+    text-decoration:overline;
+}
+.nav ul{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    height: 40px;
+    line-height: 40px;
+    list-style: none;
+}
+.nav ul li{
+    float: left;
+    overflow: hidden;
+}
+.nav ul li a{
+    color: yellow;
+    text-decoration: none;
+    padding: 0px 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav ul li a:hover{
+    color: rgb(228, 10, 46);
+}
+div img{
+    height: 500px;
+    width: 33%;
+    float: left;
+    padding: 2px;
+    border: 1px solid tomato;
+    border-radius: 5px;
+}
+.b{
+    text-align: center;
+    color: blueviolet;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.d{
+    text-align: center;
+    color: rgb(253, 7, 48);
+}
+div video{
+    height: 400px;
+    width: 500px;
+}
+.p{
+    text-align: center;
+    font-size: 25px;
+    color: red;
+}
+.p1{
+    text-align: center;
+    font-size: 25px;
+    color: red;
+    text-decoration: underline;
+}
+.k{
+    text-align: center;
+    color: blue;
+    text-decoration: overline;
+}
+
+
+
+
+/* Responsiveness */
+
+@media screen and (max-width:600px){
+    *{
+        box-sizing: border-box;
+     }
+    body{
+        margin: 0px;
+    }
+    .h{
+        text-align: center;
+        font-size: 20px;
+        background: linear-gradient(blueviolet,greenyellow);
+        padding: 10px;
+        color: white;
+        text-decoration:overline;
+}
+.nav ul{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    height: 40px;
+    line-height: 40px;
+    list-style: none;
+}
+.nav ul li{
+    float: left;
+    overflow: hidden;
+}
+.nav ul li a{
+    color: yellow;
+    text-decoration: none;
+    padding: 5px 12px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav ul li a:hover{
+    color: rgb(228, 10, 46);
+}
+div img{
+    height: 400px;
+    width: 100%;
+    float: left;
+    padding: 10px;
+    border: 1px solid tomato;
+    border-radius: 5px;
+}
+.b{
+    text-align: center;
+    color: blueviolet;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.d{
+    text-align: center;
+    color: rgb(253, 7, 48);
+    margin-top: 5px;
+    text-decoration: underline;
+}
+div video{
+    height: 400px;
+    width: 300px;
+}
+.p{
+    text-align: center;
+    font-size: 25px;
+    color: red;
+}
+.p1{
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    text-decoration: underline;
+    font-weight:bolder ;
+}
+.k{
+    text-align: center;
+    color: blue;
+    text-decoration: overline;
+}
+
+}
